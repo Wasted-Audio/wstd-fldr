@@ -207,9 +207,12 @@ protected:
             {
                 editParameter(0, false);
                 editParameter(1, false);
-                editParameter(2, false);
+                editParame
+                ImGui::PopFont();ter(2, false);
             }
+            ImGui::PopFont();
         }
+        ImGui::PopFont();
         ImGui::End();
     }
 
